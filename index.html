@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla Dinámica</title>
+    <link rel="stylesheet" href="./CSS/App Petis.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Clientes Dos Palmitas</h2>
+        
+        <table id="miTabla">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Número</th>
+                </tr>
+            </thead>
+            <tbody id="cuerpoTabla">
+                </tbody>
+            <tfoot>
+                <tr>
+                    <th class="total-text">Suma Total:</th>
+                    <th id="sumaTotal">0</th>
+                </tr>
+            </tfoot>
+        </table>
+
+        <div class="botones">
+            <button id="btnAgregar">Agregar Cliente</button>
+            <button id="btnGuardar" class="btn-primary">Guardar Datos</button>
+            <button id="btnEliminar" class="btn-danger">Eliminar Fila</button>
+        </div>
+    </div>
+
+    <script src="./JavaScript/App Petis.js"></script>
+</body>
+</html>
